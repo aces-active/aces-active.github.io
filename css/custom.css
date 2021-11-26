@@ -94,17 +94,6 @@ body {
     color: #1f2833;
 }
 
-#masthead {
-    background-image: url('../assets/site/masthead_img_colorised.png');
-    background-position: center top;
-    background-repeat: no-repeat;
-    background-size: cover;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-}
-
 .masthead-div {
     margin: 0;
     position: absolute;
@@ -223,7 +212,7 @@ body {
 
 #sg-heritage::before {
     background-image: url("https://static.thehoneycombers.com/wp-content/uploads/sites/2/2017/08/chinatown-singapore.png");
-    background-size: 180%;
+    background-size: 220%;
     background-position: center;
     height: 100%;
     width: 100%;
@@ -240,13 +229,118 @@ body {
     transition: 0.3s;
 }
 
-.display-flex {
-    display: flex;
-    flex-wrap: wrap;
+#sungei-buloh::before {
+    background-image: url("https://media.timeout.com/images/105301892/image.jpg");
+    background-size: 180%;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    filter: grayscale(100%) opacity(15%);
+    transition: 0.3s;
 }
 
-.row.display-flex > [class*='col-'] {
-    flex-grow: 1;
+#sungei-buloh:hover::before {
+    filter: grayscale(20%) opacity(35%);
+    transition: 0.3s;
+}
+
+#labrador-park::before {
+    background-image: url("https://www.nparks.gov.sg/-/media/nparks-real-content/gardens-parks-and-nature/parks-and-nature-reserve/labrador-nature-reserve/6inch-gun.jpg");
+    background-size: 160%;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    filter: grayscale(100%) opacity(15%);
+    transition: 0.3s;
+}
+
+#labrador-park:hover::before {
+    filter: grayscale(20%) opacity(35%);
+    transition: 0.3s;
+}
+
+#sentosa::before {
+    background-image: url("https://media.timeout.com/images/105688191/image.jpg");
+    background-size: 160%;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    filter: grayscale(100%) opacity(15%);
+    transition: 0.3s;
+}
+
+#sentosa:hover::before {
+    filter: grayscale(20%) opacity(35%);
+    transition: 0.3s;
+}
+
+#bukit-chandu::before {
+    background-image: url("https://static.straitstimes.com.sg/s3fs-public/articles/2018/08/30/bp_bukit_chandu_300818_64.jpg");
+    background-size: 160%;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    filter: grayscale(100%) opacity(15%);
+    transition: 0.3s;
+}
+
+#bukit-chandu:hover::before {
+    filter: grayscale(20%) opacity(35%);
+    transition: 0.3s;
+}
+
+#bukit-batok::before {
+    background-image: url("https://www.nparks.gov.sg/-/media/nparks-real-content/gardens-parks-and-nature/parks-and-nature-reserve/bukit-batok-nature-park/bt-batok-nature-park-1--quarry.jpg");
+    background-size: 160%;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    filter: grayscale(100%) opacity(15%);
+    transition: 0.3s;
+}
+
+#bukit-batok:hover::before {
+    filter: grayscale(20%) opacity(35%);
+    transition: 0.3s;
+}
+
+#macritchie::before {
+    background-image: url("https://lp-cms-production.imgix.net/2019-06/a2aa48e66952bf8816898991072e32f5-macritchie-reservoir.jpg");
+    background-size: 160%;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    filter: grayscale(100%) opacity(15%);
+    transition: 0.3s;
+}
+
+#macritchie:hover::before {
+    filter: grayscale(20%) opacity(35%);
+    transition: 0.3s;
 }
 
 /* Social */
@@ -392,11 +486,10 @@ button.btn-qa[aria-expanded="true"]  {
     .masthead {
         padding-top: calc(5rem + 40px);
         padding-bottom: 5rem;
-        color: #66fcf1;
     }
     
     .masthead-header {
-        font-size: 2.8rem;
+        font-size: 3.4rem;
     }
 
     .page-section {
@@ -457,11 +550,10 @@ button.btn-qa[aria-expanded="true"]  {
     .masthead {
         padding-top: calc(5rem + 50px);
         padding-bottom: 5rem;
-        color: #66fcf1;
     }
     
     .masthead-header {
-        font-size: 2.4rem;
+        font-size: 2.8rem;
     }
 
     .page-section {
