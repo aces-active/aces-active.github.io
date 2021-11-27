@@ -24,7 +24,7 @@ Tertiary
 /* Smooth scrolling */
 html {
     scroll-behavior: smooth;
-    scroll-padding-top: 71px;
+    scroll-padding-top: 66px;
 }
 
 .bg-primary {
@@ -84,7 +84,7 @@ body {
 }
 
 .spacer {
-    height: 71px;
+    height: 66px;
 }
 
 .small-spacer {
@@ -369,7 +369,7 @@ a.card-link > div > p {
 
 /* Routes Pages */
 .route-title {
-    padding-top: 71px;
+    padding-top: 66px;
     height: 100vh;
     color: #1f2833;
 }
@@ -489,7 +489,7 @@ ol > li {
 }
 
 ul > li {
-    padding-bottom: 10px;
+    padding-bottom: 5px;
     padding-top: 5px;
 }
 
