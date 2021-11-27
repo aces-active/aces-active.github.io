@@ -24,6 +24,7 @@ Tertiary
 /* Smooth scrolling */
 html {
     scroll-behavior: smooth;
+    scroll-padding-top: 71px;
 }
 
 .bg-primary {
@@ -545,6 +546,10 @@ button.btn-qa[aria-expanded="true"]  {
 }
 
 @media (max-width: 1024px) {
+
+    html {
+        scroll-padding-top: 57px;
+    }
     
     .route-title {
         padding-top: 57px;
@@ -553,6 +558,10 @@ button.btn-qa[aria-expanded="true"]  {
 
 /* Mobile - Horizontal */
 @media (max-width: 768px) {
+
+    html {
+        scroll-padding-top: 57px;
+    }
 
     body {
         font-size: 18px;
@@ -625,6 +634,10 @@ button.btn-qa[aria-expanded="true"]  {
 
 /* Mobile */
 @media (max-width: 576px) {
+
+    html {
+        scroll-padding-top: 57px;
+    }
 
     body {
         font-size: 16px;
