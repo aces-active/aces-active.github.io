@@ -414,6 +414,10 @@ a.card-link > div > p {
     margin-bottom: 40px;
 }
 
+.route-content-subrow {
+    margin-top: 20px;
+}
+
 .route-content-text {
     font-size: 1.1rem;
 }
@@ -427,10 +431,40 @@ a.card-link > div > p {
     box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
 }
 
+a.fancy-link {
+    background-color:#D53363;
+    color: white;
+    text-decoration: none;
+    padding: 0 5px;
+    margin: 0 -5px;
+}
+
+a.fancy-link:hover {
+    background-color: #27ddcb;
+    color: white;
+    text-decoration: none;
+}
+
+
 #labrador-park-route::before {
     background-image: url("https://www.nparks.gov.sg/-/media/nparks-real-content/gardens-parks-and-nature/parks-and-nature-reserve/labrador-nature-reserve/6inch-gun.jpg");
     background-size: cover;
     background-position: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    filter: grayscale(100%) opacity(15%);
+    transition: 0.3s;
+}
+
+#sungei-buloh-route::before {
+    background-image: url("https://media.timeout.com/images/105301892/image.jpg");
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
     height: 100%;
     width: 100%;
     position: absolute;
