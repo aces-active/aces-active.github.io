@@ -419,7 +419,7 @@ a.card-link > div > p {
 }
 
 .route-content-text {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
 }
 
 .route-content-img-col {
@@ -462,6 +462,36 @@ a.fancy-link:hover {
 
 #sungei-buloh-route::before {
     background-image: url("https://media.timeout.com/images/105301892/image.jpg");
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    filter: grayscale(100%) opacity(15%);
+    transition: 0.3s;
+}
+
+#sentosa-route::before {
+    background-image: url("https://media.timeout.com/images/105688191/image.jpg");
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    filter: grayscale(100%) opacity(15%);
+    transition: 0.3s;
+}
+
+#kent-ridge-route::before {
+    background-image: url("https://static.straitstimes.com.sg/s3fs-public/articles/2018/08/30/bp_bukit_chandu_300818_64.jpg");
     background-size: cover;
     background-position: center;
     object-fit: cover;
