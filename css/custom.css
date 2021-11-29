@@ -445,21 +445,6 @@ a.fancy-link:hover {
     text-decoration: none;
 }
 
-
-#labrador-park-route::before {
-    background-image: url("https://www.nparks.gov.sg/-/media/nparks-real-content/gardens-parks-and-nature/parks-and-nature-reserve/labrador-nature-reserve/6inch-gun.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    content: "";
-    filter: grayscale(100%) opacity(15%);
-    transition: 0.3s;
-}
-
 #sungei-buloh-route::before {
     background-image: url("https://media.timeout.com/images/105301892/image.jpg");
     background-size: cover;
@@ -471,7 +456,21 @@ a.fancy-link:hover {
     top: 0;
     left: 0;
     content: "";
-    filter: grayscale(100%) opacity(15%);
+    filter: grayscale(100%) opacity(35%);
+    transition: 0.3s;
+}
+
+#labrador-park-route::before {
+    background-image: url("https://www.nparks.gov.sg/-/media/nparks-real-content/gardens-parks-and-nature/parks-and-nature-reserve/labrador-nature-reserve/6inch-gun.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    filter: grayscale(100%) opacity(30%);
     transition: 0.3s;
 }
 
@@ -486,7 +485,7 @@ a.fancy-link:hover {
     top: 0;
     left: 0;
     content: "";
-    filter: grayscale(100%) opacity(15%);
+    filter: grayscale(100%) opacity(25%);
     transition: 0.3s;
 }
 
@@ -501,7 +500,22 @@ a.fancy-link:hover {
     top: 0;
     left: 0;
     content: "";
-    filter: grayscale(100%) opacity(15%);
+    filter: grayscale(100%) opacity(35%);
+    transition: 0.3s;
+}
+
+#bukit-batok-route::before {
+    background-image: url("https://www.nparks.gov.sg/-/media/nparks-real-content/gardens-parks-and-nature/parks-and-nature-reserve/bukit-batok-nature-park/bt-batok-nature-park-1--quarry.jpg");
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    filter: grayscale(100%) opacity(35%);
     transition: 0.3s;
 }
 
