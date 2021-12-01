@@ -430,8 +430,8 @@ a.fancy-link:hover {
     transition: 0.3s;
 }
 
-#botanic-gardens-route::before {
-    background-image: url("https://www.nparks.gov.sg/-/media/nparks-real-content/gardens-parks-and-nature/sg-botanic-gardens/sbg10_047alt.jpg");
+.page-masthead::before {
+    /* background-image: url("https://www.nparks.gov.sg/-/media/nparks-real-content/gardens-parks-and-nature/sg-botanic-gardens/sbg10_047alt.jpg"); */
     background-size: cover;
     background-position: center;
     object-fit: cover;
@@ -635,7 +635,7 @@ button.btn-qa[aria-expanded="true"]  {
     .page-section-subheader {
         font-size: 1.7rem;
         letter-spacing: 0.2rem;
-        margin-bottom: 15px;
+        margin-bottom: 20px;
     }
 
     /* Footer */
@@ -711,7 +711,7 @@ button.btn-qa[aria-expanded="true"]  {
     .page-section-subheader {
         font-size: 1.5rem;
         letter-spacing: 0.2rem;
-        margin-bottom: 15px;
+        margin-bottom: 20px;
     }
 
     /* Footer */
