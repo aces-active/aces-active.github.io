@@ -359,6 +359,120 @@ body {
     transition: 0.3s;
 }
 
+#ann-siang::before {
+    background-image: url("https://media.timeout.com/images/105736769/image.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    filter: grayscale(100%) opacity(15%);
+    transition: 0.3s;
+}
+
+#ann-siang:hover::before {
+    filter: grayscale(20%) opacity(30%);
+    transition: 0.3s;
+}
+
+#joo-chiat::before {
+    background-image: url("https://www.befreetour.com/img/produk/combo-marina-bay-sands-skypark-observation-deck-gardens-by-the-bay-artscience-museum/combo-marina-bay-sands-skypark-observation-deck-gardens-by-the-bay-artscience-museum_8a88f525896589903049f287224e91dce1bd4fc1.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    filter: grayscale(100%) opacity(15%);
+    transition: 0.3s;
+}
+
+#joo-chiat:hover::before {
+    filter: grayscale(20%) opacity(30%);
+    transition: 0.3s;
+}
+
+#marina-bay::before {
+    background-image: url("https://www.befreetour.com/img/produk/combo-marina-bay-sands-skypark-observation-deck-gardens-by-the-bay-artscience-museum/combo-marina-bay-sands-skypark-observation-deck-gardens-by-the-bay-artscience-museum_8a88f525896589903049f287224e91dce1bd4fc1.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    filter: grayscale(100%) opacity(15%);
+    transition: 0.3s;
+}
+
+#marina-bay:hover::before {
+    filter: grayscale(20%) opacity(30%);
+    transition: 0.3s;
+}
+
+#botanic-gardens::before {
+    background-image: url("https://www.nparks.gov.sg/-/media/nparks-real-content/gardens-parks-and-nature/sg-botanic-gardens/sbg10_047alt.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    filter: grayscale(100%) opacity(15%);
+    transition: 0.3s;
+}
+
+#botanic-gardens:hover::before {
+    filter: grayscale(20%) opacity(30%);
+    transition: 0.3s;
+}
+
+#upper-peirce::before {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/1/1a/UpperPeirceReservoir-20050226.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    filter: grayscale(100%) opacity(15%);
+    transition: 0.3s;
+}
+
+#upper-peirce:hover::before {
+    filter: grayscale(20%) opacity(30%);
+    transition: 0.3s;
+}
+
+#green-corridor::before {
+    background-image: url("https://www.ura.gov.sg/-/media/Corporate/Image-Gallery/Get-Involved/Rail-corridor/Rail%20Corridor%20gallery%201.JPG");
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    filter: grayscale(100%) opacity(15%);
+    transition: 0.3s;
+}
+
+#green-corridor:hover::before {
+    filter: grayscale(20%) opacity(30%);
+    transition: 0.3s;
+}
+
 /* Links */
 a.card-link > div > h4,
 a.card-link > div > p {
