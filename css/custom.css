@@ -498,6 +498,11 @@ button.btn-qa[aria-expanded="true"]  {
     padding-bottom: 5rem;
 }
 
+.credits-col {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
 @media (max-width: 1024px) {
 
     html {
@@ -655,6 +660,18 @@ button.btn-qa[aria-expanded="true"]  {
         margin-bottom: 20px;
     }
 
+    h4 {
+        font-size: 1.2rem;
+    }
+
+    .routes-card {
+        padding: 24px 20px;
+    }
+
+    .routes-card-content {
+        font-size: 0.9rem;
+    }
+
     /* Footer */
     .footer-text {
         font-family: Poppins;
@@ -681,7 +698,7 @@ button.btn-qa[aria-expanded="true"]  {
 
     /* References */
     .references {
-        font-size: 0.8rem;
+        font-size: 0.7rem;
     }
 
     .credits-names {
