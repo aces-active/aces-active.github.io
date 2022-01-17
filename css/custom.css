@@ -132,6 +132,27 @@ body {
     padding-bottom: 30px;
 }
 
+.masthead-link {
+    font-family: "Roboto Mono";
+    font-size: 1.0rem;
+}
+
+a.masthead-fancy-link {
+    font-family: "Roboto Mono";
+    font-size: 1.0rem;
+    background-color:#D53363;
+    color: white;
+    text-decoration: none;
+    padding: 0 5px;
+    margin: 0 -1px;
+}
+
+a.masthead-fancy-link:hover {
+    background-color: #27ddcb;
+    color: white;
+    text-decoration: none;
+}
+
 .btn-get-started {
     /* height: 3.0rem; */
     /* background-color: #ee4c7c; */
@@ -435,7 +456,6 @@ a.fancy-link:hover {
 }
 
 .page-masthead::before {
-    /* background-image: url("https://www.nparks.gov.sg/-/media/nparks-real-content/gardens-parks-and-nature/sg-botanic-gardens/sbg10_047alt.jpg"); */
     background-size: cover;
     background-position: center;
     object-fit: cover;
@@ -477,6 +497,11 @@ a.fancy-link:hover {
     content: "";
     filter: grayscale(100%) opacity(35%);
     transition: 0.3s;
+}
+
+#lim-bo-seng {
+    max-height: 30%;
+    width: auto;
 }
 
 /* Footer */
@@ -593,9 +618,9 @@ button.btn-qa[aria-expanded="true"]  {
 .credits-names {
     font-family: "Roboto Mono", News Cycle, Lato;
     text-transform: uppercase;
-    font-size: 2.0rem;
+    font-size: 1.7rem;
     letter-spacing: 0.2rem;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     color: #7B73F0;
 }
 
@@ -693,6 +718,11 @@ button.btn-qa[aria-expanded="true"]  {
     .references {
         font-size: 0.9rem;
     }
+
+    .credits-names {
+        font-size: 1.2rem;
+        letter-spacing: 0.15rem;
+    }
 }
 
 /* Mobile */
@@ -718,6 +748,14 @@ button.btn-qa[aria-expanded="true"]  {
 
     .masthead-text {
         font-size: 1.2rem;
+    }
+    
+    .masthead-link {
+        font-size: 0.8rem;
+    }
+
+    a.masthead-fancy-link {
+        font-size: 0.8rem;
     }
 
     .btn-get-started {
@@ -781,5 +819,10 @@ button.btn-qa[aria-expanded="true"]  {
     /* References */
     .references {
         font-size: 0.8rem;
+    }
+
+    .credits-names {
+        font-size: 1.2rem;
+        letter-spacing: 0.1rem;
     }
 }
