@@ -583,6 +583,22 @@ button.btn-qa[aria-expanded="true"]  {
     margin-bottom: 20px;
 }
 
+/* References */
+.references {
+    font-family: "Roboto Mono";
+    font-size: 1.0rem;
+    word-break: break-word;
+}
+
+.credits-names {
+    font-family: "Roboto Mono", News Cycle, Lato;
+    text-transform: uppercase;
+    font-size: 2.0rem;
+    letter-spacing: 0.2rem;
+    margin-bottom: 30px;
+    color: #7B73F0;
+}
+
 @media (max-width: 1024px) {
 
     html {
@@ -672,6 +688,11 @@ button.btn-qa[aria-expanded="true"]  {
     .route-title {
         padding-top: 57px;
     }
+
+    /* References */
+    .references {
+        font-size: 0.9rem;
+    }
 }
 
 /* Mobile */
@@ -755,5 +776,10 @@ button.btn-qa[aria-expanded="true"]  {
     #lim-bo-seng {
         max-height: 30%;
         width: auto;
+    }
+
+    /* References */
+    .references {
+        font-size: 0.8rem;
     }
 }
