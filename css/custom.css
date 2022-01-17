@@ -103,9 +103,10 @@ body {
 }
 
 #masthead::before {
-    background-image: url("https://images.unsplash.com/photo-1511835395240-60717c19396e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    background-image: url("https://raw.githubusercontent.com/aces-active/aces-active.github.io/main/assets/images/masthead-option-1-hi-res.jpg");
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     object-fit: cover;
     height: 100%;
     width: 100%;
