@@ -354,156 +354,7 @@ a.fancy-link:hover {
     text-decoration: none;
 }
 
-#sungei-buloh-route::before {
-    background-image: url("https://media.timeout.com/images/105301892/image.jpg");
-    background-size: cover;
-    background-position: center;
-    object-fit: cover;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    content: "";
-    filter: grayscale(100%) opacity(35%);
-    transition: 0.3s;
-}
-
-#labrador-park-route::before {
-    background-image: url("https://www.nparks.gov.sg/-/media/nparks-real-content/gardens-parks-and-nature/parks-and-nature-reserve/labrador-nature-reserve/6inch-gun.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    content: "";
-    filter: grayscale(100%) opacity(30%);
-    transition: 0.3s;
-}
-
-#sentosa-route::before {
-    background-image: url("https://media.timeout.com/images/105688191/image.jpg");
-    background-size: cover;
-    background-position: center;
-    object-fit: cover;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    content: "";
-    filter: grayscale(100%) opacity(25%);
-    transition: 0.3s;
-}
-
-#kent-ridge-route::before {
-    background-image: url("https://static.straitstimes.com.sg/s3fs-public/articles/2018/08/30/bp_bukit_chandu_300818_64.jpg");
-    background-size: cover;
-    background-position: center;
-    object-fit: cover;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    content: "";
-    filter: grayscale(100%) opacity(35%);
-    transition: 0.3s;
-}
-
-#bukit-batok-route::before {
-    background-image: url("https://raw.githubusercontent.com/aces-active/aces-active.github.io/main/assets/images/bukit-batok.JPG");
-    background-size: cover;
-    background-position: center;
-    object-fit: cover;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    content: "";
-    filter: grayscale(100%) opacity(35%);
-    transition: 0.3s;
-}
-
-#macritchie-route::before {
-    background-image: url("https://lp-cms-production.imgix.net/2019-06/a2aa48e66952bf8816898991072e32f5-macritchie-reservoir.jpg");
-    background-size: cover;
-    background-position: center;
-    object-fit: cover;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    content: "";
-    filter: grayscale(100%) opacity(35%);
-    transition: 0.3s;
-}
-
-#chinatown-route::before {
-    background-image: url("https://media.timeout.com/images/105736769/image.jpg");
-    background-size: cover;
-    background-position: center;
-    object-fit: cover;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    content: "";
-    filter: grayscale(100%) opacity(35%);
-    transition: 0.3s;
-}
-
-#marina-bay-route::before {
-    background-image: url("https://www.befreetour.com/img/produk/combo-marina-bay-sands-skypark-observation-deck-gardens-by-the-bay-artscience-museum/combo-marina-bay-sands-skypark-observation-deck-gardens-by-the-bay-artscience-museum_8a88f525896589903049f287224e91dce1bd4fc1.jpg");
-    background-size: cover;
-    background-position: top;
-    object-fit: cover;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    content: "";
-    filter: grayscale(100%) opacity(35%);
-    transition: 0.3s;
-}
-
 .page-masthead::before {
-    background-size: cover;
-    background-position: center;
-    object-fit: cover;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    content: "";
-    filter: grayscale(100%) opacity(35%);
-    transition: 0.3s;
-}
-
-#upper-peirce-route::before {
-    background-image: url("https://upload.wikimedia.org/wikipedia/commons/1/1a/UpperPeirceReservoir-20050226.jpg");
-    background-size: cover;
-    background-position: center;
-    object-fit: cover;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    content: "";
-    filter: grayscale(100%) opacity(35%);
-    transition: 0.3s;
-}
-
-#green-corridor-route::before {
-    background-image: url("https://www.ura.gov.sg/-/media/Corporate/Image-Gallery/Get-Involved/Rail-corridor/Rail%20Corridor%20gallery%201.JPG");
     background-size: cover;
     background-position: center;
     object-fit: cover;
@@ -692,12 +543,6 @@ button.btn-qa[aria-expanded="true"]  {
         color: #1f2833;
     }
 
-    .info-section {
-        font-size: 1.0rem;
-        padding: 2rem 0;
-        color: #1f2833;
-    }
-
     .page-section-header {
 
         font-size: 2.2rem;
@@ -798,21 +643,11 @@ button.btn-qa[aria-expanded="true"]  {
         color: #1f2833;
     }
 
-    .info-section {
-        padding: 1.5rem 0;
-        color: #1f2833;
-    }
-
     .page-section-header {
 
         font-size: 2.0rem;
         margin-bottom: 30px;
     }
-    
-    /* .info-head {
-        padding-top: calc(7rem + 50px);
-        padding-bottom: 7rem;
-    } */
 
     .page-section-subheader {
         font-size: 1.5rem;

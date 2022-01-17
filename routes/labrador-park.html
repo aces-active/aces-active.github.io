@@ -1,11 +1,19 @@
 ---
 layout: default
 title: Japanese Invasion Series - Labrador Park
+image: https://www.nparks.gov.sg/-/media/nparks-real-content/gardens-parks-and-nature/parks-and-nature-reserve/labrador-nature-reserve/6inch-gun.jpg
 ---
+
+<style>
+    .page-masthead::before{
+        background-image: url("{{ page.image }}");
+        filter: grayscale(100%) opacity(30%);
+    }
+</style>
 
 <section class="route-title text-center bg-lightgrey">
     <div class="section-wrapper">
-        <div id="labrador-park-route">
+        <div class="page-masthead">
             <div class="masthead-div">
                 <div class="section-content">
                     <h1 class="route-header">Labrador Park</h1>

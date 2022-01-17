@@ -1,11 +1,19 @@
 ---
 layout: default
 title: Sentosa - Japanese Invasion Series
+image: https://media.timeout.com/images/105688191/image.jpg
 ---
+
+<style>
+    .page-masthead::before{
+        background-image: url("{{ page.image }}");
+        filter: grayscale(100%) opacity(25%);
+    }
+</style>
 
 <section class="route-title text-center bg-lightgrey">
     <div class="section-wrapper">
-        <div id="sentosa-route">
+        <div class="page-masthead">
             <div class="masthead-div">
                 <div class="section-content">
                     <h1 class="route-header">Sentosa</h1>
