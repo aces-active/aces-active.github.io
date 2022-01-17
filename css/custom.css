@@ -102,6 +102,23 @@ body {
     overflow-y: hidden; */
 }
 
+#masthead::before {
+    background-image: url("https://images.unsplash.com/photo-1511835395240-60717c19396e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    filter: grayscale(100%) opacity(30%);
+    transition: 0.3s;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
 .masthead {
     padding-top: calc(6rem + 74px);
     padding-bottom: 6rem;
