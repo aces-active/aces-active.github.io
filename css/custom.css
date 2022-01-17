@@ -375,7 +375,7 @@ a.fancy-link:hover {
 }
 
 #bukit-batok-route::before {
-    background-image: url("https://www.nparks.gov.sg/-/media/nparks-real-content/gardens-parks-and-nature/parks-and-nature-reserve/bukit-batok-nature-park/bt-batok-nature-park-1--quarry.jpg");
+    background-image: url("https://raw.githubusercontent.com/aces-active/aces-active.github.io/main/assets/images/bukit-batok.JPG");
     background-size: cover;
     background-position: center;
     object-fit: cover;
@@ -749,5 +749,11 @@ button.btn-qa[aria-expanded="true"]  {
 
     .route-content-text {
         font-size: 1.0rem;
+    }
+
+    /* Lim Bo Seng picture */
+    #lim-bo-seng {
+        max-height: 30%;
+        width: auto;
     }
 }
