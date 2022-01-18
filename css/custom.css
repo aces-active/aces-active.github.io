@@ -142,8 +142,8 @@ body {
 }
 
 .masthead-text {
-    /* color: #ee4c7c; */
-    color: #AA2D07;
+    color: #333F50;
+    /* color: #AA2D07; */
     font-family: "Roboto Mono";
     text-transform: uppercase;
     font-size: 2.1rem;
