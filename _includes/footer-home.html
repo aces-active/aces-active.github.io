@@ -15,53 +15,49 @@
     }
 
     // Get CSV
-    // $.ajax({
-    //     url: 'https://raw.githubusercontent.com/aces-active/aces-active.github.io/main/data/active-lb.csv',
-    //     dataType: 'text',
-    // }).done(successFunction);
-// 
-    // function successFunction(data) {
-    //     var allRows = data.split(/\r?\n|\r/);
-    //     var table = '<table id="lb2" class="compact stripe">';
-    //     for (var singleRow = 0; singleRow < allRows.length; singleRow++) {
-    //         if (singleRow === 0) {
-    //             table += '<thead>';
-    //             table += '<tr>';
-    //         } else {
-    //             table += '<tr>';
-    //         }
-    //         var rowCells = allRows[singleRow].split(',');
-    //         console.log('Row: ' + rowCells);
-    //         for (var rowCell = 0; rowCell < rowCells.length; rowCell++) {
-    //             if (singleRow === 0) {
-    //                 table += '<th>';
-    //                 table += rowCells[rowCell];
-    //                 table += '</th>';
-    //             } else {
-    //                 table += '<td>';
-    //                 if (rowCell == (rowCells.length-1)) {
-    //                     table += rowCells[rowCell] + ' km';
-    //                 } else {
-    //                     table += rowCells[rowCell];
-    //                 }
-    //                 table += '</td>';
-    //             }
-    //         }
-    //         if (singleRow === 0) {
-    //             table += '</tr>';
-    //             table += '</thead>';
-    //             table += '<tbody>';
-    //         } else {
-    //             table += '</tr>';
-    //         }
-    //     } 
-    //     table += '</tbody>';
-    //     table += '</table>';
-    //     $('#lb-container').append(table);
-    // }
+    $.ajax({
+        url: 'https://raw.githubusercontent.com/aces-active/aces-active.github.io/main/data/active-lb.csv',
+        dataType: 'text',
+    }).done(successFunction);
+    
+    function successFunction(data) {
+        var allRows = data.split(/\r?\n|\r/);
+        var table = '<table id="lb" class="compact stripe">';
+        for (var singleRow = 0; singleRow < 10; singleRow++) {
+            if (singleRow === 0) {
+                table += '<thead>';
+                table += '<tr>';
+            } else {
+                table += '<tr>';
+            }
+            var rowCells = allRows[singleRow].split(',');
+            for (var rowCell = 0; rowCell < rowCells.length; rowCell++) {
+                if (singleRow === 0) {
+                    table += '<th>';
+                    table += rowCells[rowCell];
+                    table += '</th>';
+                } else {
+                    table += '<td>';
+                    if (rowCell == (rowCells.length-1)) {
+                        table += rowCells[rowCell] + ' km';
+                    } else {
+                        table += rowCells[rowCell];
+                    }
+                    table += '</td>';
+                }
+            }
+            if (singleRow === 0) {
+                table += '</tr>';
+                table += '</thead>';
+                table += '<tbody>';
+            } else {
+                table += '</tr>';
+            }
+        } 
+        table += '</tbody>';
+        table += '</table>';
+        $('#lb-container').append(table);
 
-    // Format data tables
-    $(document).ready( function(){
         $('#lb').DataTable({
             "pageLength": 25,
             "searching": false,
@@ -72,16 +68,6 @@
                 {"className": "dt-center", "targets": "_all"}
             ]
         });
+    }
 
-        // $('#lb2').DataTable({
-        //     "pageLength": 25,
-        //     "searching": false,
-        //     "paginate": false,
-        //     "lengthChange": false,
-        //     "info": false,
-        //     "columnDefs": [
-        //         {"className": "dt-center", "targets": "_all"}
-        //     ]
-        // });
-    } );
 </script>
