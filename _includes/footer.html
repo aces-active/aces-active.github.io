@@ -13,17 +13,4 @@
     function scrollToSection(section_name) {
         document.getElementById(section_name).scrollIntoView(true);
     }
-
-    $(document).ready( function(){
-        $('#lb').DataTable({
-            "pageLength": 25,
-            "searching": false,
-            "paginate": false,
-            "lengthChange": false,
-            "info": false,
-            "columnDefs": [
-                {"className": "dt-center", "targets": "_all"}
-            ]
-        });
-    } );
 </script>
