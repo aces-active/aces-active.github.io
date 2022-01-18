@@ -13,4 +13,10 @@
     function scrollToSection(section_name) {
         document.getElementById(section_name).scrollIntoView(true);
     }
+
+    $(document).ready(function(){
+        $('.second-button').on('click', function () {
+            $('.animated-icon2').toggleClass('open');
+        });
+    });
 </script>
